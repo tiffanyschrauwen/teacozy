@@ -6,6 +6,7 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
 }
 
 a {
@@ -15,6 +16,16 @@ a {
 
 nav span {
   padding: 20px 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div {
+    display: block;
 }
 
 /* Header */
@@ -45,3 +56,35 @@ header {
 header nav {
   padding-right: 10px;
 }
+
+/* Main Content Container */
+
+.main {
+    padding-top: 60px;
+    width: 1200px;
+    margin: auto;
+}
+
+/* Mission */
+
+#mission {
+  background-image: url("../../resources/images/img-mission-background.jpg");
+  height: 700px;
+}
+
+#mission .content {
+    background-color: black;
+    width: 100%;
+}
+
+/* Featured Tea */
+
+.item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+
+
+/* Locations */
