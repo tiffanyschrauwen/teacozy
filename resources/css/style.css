@@ -8,5 +8,40 @@ body {
   opacity: 0.9;
 }
 
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+nav span {
+  padding: 20px 10px;
+}
 
 /* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+header nav {
+  padding-right: 10px;
+}
