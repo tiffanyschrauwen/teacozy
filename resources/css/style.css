@@ -18,14 +18,19 @@ nav span {
   padding: 20px 10px;
 }
 
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+h2, h5 {
+  display: block;
+}
+
 .flex-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-div {
-    display: block;
 }
 
 /* Header */
@@ -70,14 +75,23 @@ header nav {
 #mission {
   background-image: url("../../resources/images/img-mission-background.jpg");
   height: 700px;
+  padding-top: 70px;
 }
 
 #mission .content {
     background-color: black;
     width: 100%;
+    margin: auto;
 }
 
 /* Featured Tea */
+
+#featured-tea {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
 
 .item img {
   height: 200px;
@@ -85,6 +99,29 @@ header nav {
   margin: 10px;
 }
 
-
-
 /* Locations */
+
+#locations {
+  background-image: url("../../resources/images/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 70px;
+}
+
+#locations .location {
+    background-color: black;
+    width: 300px;
+    margin: 15px 20px;
+}
+
+/* Contact */
+
+#contact {
+  height: 200px;
+}
+
+/* Footer */
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
